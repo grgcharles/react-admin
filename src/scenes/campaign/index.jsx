@@ -2,7 +2,7 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
-import { GoogleAdsCampaignData } from "../../data/GoogleAdsCampaignData";
+import GoogleAdsCampaignData from "../../data/GoogleAdsCampaignData";
 import { mockDataInvoices } from "../../data/mockData";
 import Header from "../../components/Header";
 
