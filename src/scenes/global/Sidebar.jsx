@@ -131,7 +131,14 @@ const Sidebar = () => {
               sx={{ m: "15px 0 5px 20px" }}
             >
               Data
-            </Typography>
+            </Typography>\
+            <Item
+              title="Campaign Dashboard"
+              to="/campaign"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
             <Item
               title="Manage Team"
               to="/team"
