@@ -80,7 +80,7 @@ const Sidebar = () => {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  Admin View
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -131,7 +131,7 @@ const Sidebar = () => {
               sx={{ m: "15px 0 5px 20px" }}
             >
               Data
-            </Typography>\
+            </Typography>
             <Item
               title="Campaign Dashboard"
               to="/campaign"
